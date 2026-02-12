@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ─── Build output ─────────────────────────────
 /target/
 build/
@@ -36,11 +37,36 @@ Thumbs.db
 .sts4-cache
 
 ## NetBeans
+=======
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+>>>>>>> cdc34d35cb8e41a9fab0f2f6046c0caa73c7225c
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
+<<<<<<< HEAD
 
 ## VS Code
 .vscode/*
@@ -64,3 +90,11 @@ Thumbs.db
 
 # ─── Dotenv files ─────────────────────────────
 .env
+=======
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+>>>>>>> cdc34d35cb8e41a9fab0f2f6046c0caa73c7225c
