@@ -8,10 +8,17 @@
 		<version>4.0.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+<<<<<<< HEAD
 	<groupId>com.example</groupId>
 	<artifactId>CivicAlert</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>CivicAlert</name>
+=======
+	<groupId>com.comunidad</groupId>
+	<artifactId>Incidencias</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Incidencias</name>
+>>>>>>> cdc34d35cb8e41a9fab0f2f6046c0caa73c7225c
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -36,16 +43,26 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
+=======
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+>>>>>>> cdc34d35cb8e41a9fab0f2f6046c0caa73c7225c
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
 
 		<dependency>
+<<<<<<< HEAD
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
+=======
+>>>>>>> cdc34d35cb8e41a9fab0f2f6046c0caa73c7225c
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
@@ -53,7 +70,12 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+<<<<<<< HEAD
 			<optional>true</optional>
+=======
+			<version>1.18.30</version>
+			<scope>provided</scope>
+>>>>>>> cdc34d35cb8e41a9fab0f2f6046c0caa73c7225c
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -62,6 +84,14 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
+=======
+			<artifactId>spring-boot-starter-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+>>>>>>> cdc34d35cb8e41a9fab0f2f6046c0caa73c7225c
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
